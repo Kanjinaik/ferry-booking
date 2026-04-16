@@ -1,6 +1,10 @@
 #!/bin/sh
 set -e
 
+if [ "${DB_CONNECTION}" = "mysq1" ]; then
+  export DB_CONNECTION="mysql"
+fi
+
 php artisan optimize:clear
 php artisan migrate --force
 php artisan db:seed --class=Database\\Seeders\\FerrySeeder --force
