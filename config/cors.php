@@ -5,10 +5,13 @@ return [
     'allowed_methods' => ['*'],
     'allowed_origins' => array_filter([
         env('FRONTEND_URL'),
+        'https://ferry-booking-cyan.vercel.app',
         'http://localhost:3000',
         'https://localhost:3000',
     ]),
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => [
+        '#^https://.*\.vercel\.app$#',
+    ],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
     'max_age' => 0,
