@@ -29,10 +29,11 @@ COPY --from=vendor /app/vendor /app/vendor
 COPY . /app
 
 RUN mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
-    && chown -R www-data:www-data storage bootstrap/cache
+    && chown -R www-data:www-data storage bootstrap/cache \
+    && chmod +x /app/start-render.sh
 
 ENV PORT=10000
 
 EXPOSE 10000
 
-CMD sh -c "php artisan migrate --force && php artisan db:seed --class=Database\\\\Seeders\\\\FerrySeeder --force && php -S 0.0.0.0:${PORT} -t public"
+CMD ["/app/start-render.sh"]
