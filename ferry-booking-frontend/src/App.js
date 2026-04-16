@@ -139,7 +139,7 @@ function Footer() {
             <ul>
               <li><Link to="/book">Passenger Ferries</Link></li>
               <li><Link to="/book">Vehicle Transport</Link></li>
-              <li><a href="#">Charter Services</a></li>
+              <li><Link to="/book">Charter Services</Link></li>
               <li><Link to="/explore">Tour Packages</Link></li>
               <li><Link to="/faq">Travel Support</Link></li>
             </ul>

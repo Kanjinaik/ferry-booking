@@ -6,33 +6,33 @@ function MyBookings() {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('all');
+  const [reloadKey, setReloadKey] = useState(0);
   const navigate = useNavigate();
 
   useEffect(() => {
-    loadBookings();
-  }, [filter]);
+    const loadBookings = async () => {
+      try {
+        setLoading(true);
+        const response = await api.get("bookings/my");
+        let bookingData = response.data.data;
+        console.log('Bookings fetched:', bookingData);
 
-  const loadBookings = async () => {
-    try {
-      setLoading(true);
-      const response = await api.get("bookings/my");
-      let bookingData = response.data.data;
-      console.log('Bookings fetched:', bookingData);
-      
-      // Apply filter
-      if (filter !== 'all') {
-        bookingData = bookingData.filter(booking => booking.status === filter);
+        if (filter !== 'all') {
+          bookingData = bookingData.filter(booking => booking.status === filter);
+        }
+
+        setBookings(bookingData);
+      } catch (err) {
+        if (err.response?.status === 401) {
+          navigate('/login');
+        }
+      } finally {
+        setLoading(false);
       }
-      
-      setBookings(bookingData);
-    } catch (err) {
-      if (err.response?.status === 401) {
-        navigate('/login');
-      }
-    } finally {
-      setLoading(false);
-    }
-  };
+    };
+
+    loadBookings();
+  }, [filter, navigate, reloadKey]);
 
   const getStatusClass = (status) => {
     const classes = {
@@ -76,7 +76,7 @@ function MyBookings() {
     try {
       await api.delete(`/bookings/${bookingId}`);
       alert('Booking cancelled successfully');
-      loadBookings(); // Reload bookings
+      setReloadKey((currentKey) => currentKey + 1);
     } catch (err) {
       alert(err.response?.data?.message || 'Failed to cancel booking');
     }
