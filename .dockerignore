@@ -1,0 +1,14 @@
+.git
+.github
+.qoder
+.env
+.env.*
+node_modules
+vendor
+storage/logs
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*.php
+ferry-booking-frontend/node_modules
+ferry-booking-frontend/build
