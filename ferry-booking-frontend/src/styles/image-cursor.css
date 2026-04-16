@@ -1,0 +1,19 @@
+.bg-slide {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Background Images */
+.slide1 {
+  background-image: url('../assets/images/Banner_1920x964px.jpg');
+}
+
+.slide2 {
+  background-image: url('../assets/images/Banner_1920x964px.jpg');
+}
+
+.slide3 {
+  background-image: url('../assets/images/Banner_1920x964px.jpg');
+}
