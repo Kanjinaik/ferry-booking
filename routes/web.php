@@ -4,7 +4,7 @@ use App\Http\Controllers\AdminWebController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return redirect('http://localhost:3000');
+    return redirect(env('FRONTEND_URL', '/admin/login'));
 });
 
 Route::get('/admin', function () {
