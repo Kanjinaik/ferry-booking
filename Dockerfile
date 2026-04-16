@@ -9,7 +9,7 @@ RUN composer install \
     --prefer-dist \
     --optimize-autoloader \
     --no-scripts \
-    --ignore-platform-req=ext-zip
+    --ignore-platform-reqs
 
 FROM php:8.2-cli
 
