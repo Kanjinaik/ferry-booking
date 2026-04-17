@@ -61,7 +61,7 @@ function Register() {
       <div className="auth-container">
         <div className="auth-header">
           <h2>Create Account</h2>
-          <p>Join M2M Ferries today</p>
+          <p>Join Payfikar Travels today</p>
         </div>
         
         <div className="auth-body">

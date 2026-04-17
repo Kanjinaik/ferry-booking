@@ -205,7 +205,7 @@ const InteractiveHome = () => {
         <div className="header-container-interactive">
           <Link to="/" className="logo-interactive">
             <span>Ferry</span>
-            <span>M2M Ferries</span>
+            <span>Payfikar Travels</span>
           </Link>
           <nav className="nav-menu-interactive">
             <Link to="/" className="nav-link-interactive">Home</Link>

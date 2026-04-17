@@ -48,7 +48,7 @@ function Login() {
       <div className="auth-container">
         <div className="auth-header">
           <h2>Welcome Back</h2>
-          <p>Sign in to your M2M Ferries account</p>
+          <p>Sign in to your Payfikar Travels account</p>
         </div>
         
         <div className="auth-body">

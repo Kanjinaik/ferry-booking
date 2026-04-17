@@ -13,7 +13,7 @@ const About = () => {
         height: '400px'
       }}>
         <div className="hero-content">
-          <h1 className="hero-title">About M2M Ferries</h1>
+          <h1 className="hero-title">About Payfikar Travels</h1>
           <p className="hero-subtitle">Your trusted partner for seamless maritime travel</p>
         </div>
       </section>
@@ -24,7 +24,7 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h2 className="section-title">Who We Are</h2>
-              <p className="lead">M2M Ferries is a leading maritime transportation company dedicated to providing safe, reliable, and comfortable ferry services connecting Mumbai with its coastal destinations.</p>
+              <p className="lead">Payfikar Travels is a leading maritime transportation company dedicated to providing safe, reliable, and comfortable ferry services connecting Mumbai with its coastal destinations.</p>
               <p>With years of experience in the maritime industry, we have established ourselves as the preferred choice for travelers seeking convenient and affordable sea transportation between Mumbai and Mandwa/Alibaug.</p>
               
               <div className="stats mt-4">
@@ -45,7 +45,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="/assets/images/about-us/Images1.png" alt="M2M Ferries" className="img-fluid rounded shadow" />
+              <img src="/assets/images/about-us/Images1.png" alt="Payfikar Travels" className="img-fluid rounded shadow" />
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ export const processPayment = async (bookingData) => {
       key: process.env.REACT_APP_RAZORPAY_KEY,   // ✅ from .env
       amount: order.amount,
       currency: 'INR',
-      name: 'M2M Ferries',
+      name: 'Payfikar Travels',
       description: 'Ferry Booking Payment',
       order_id: order.id,
 

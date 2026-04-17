@@ -135,7 +135,7 @@ const EnhancedHome = () => {
         <div className="header-container">
           <Link to="/" className="logo-enhanced">
             <span>⛴️</span>
-            <span>M2M Ferries</span>
+            <span>Payfikar Travels</span>
           </Link>
           <nav className="nav-menu-enhanced">
             <Link to="/" className="nav-link-enhanced">Home</Link>

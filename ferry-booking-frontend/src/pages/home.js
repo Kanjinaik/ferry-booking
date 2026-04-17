@@ -88,7 +88,7 @@ const Home = () => {
         {/* TEXT OVER IMAGE */}
         <div className="hero-overlay">
           <h1 className="hero-title">Leave the road behind with</h1>
-          <h2 className="hero-brand">M2M Ferries</h2>
+          <h2 className="hero-brand">Payfikar Travels</h2>
           <p className="hero-subtext">Premium Maritime Travel Between Mumbai & Mandwa</p>
           <Link to="/book" className="hero-btn">BOOK NOW</Link>
         </div>

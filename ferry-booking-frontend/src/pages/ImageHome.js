@@ -135,7 +135,7 @@ const ImageHome = () => {
         <div className="header-container-images">
           <Link to="/" className="logo-images">
             <span>⛴️</span>
-            <span>M2M Ferries</span>
+            <span>Payfikar Travels</span>
           </Link>
           <nav className="nav-menu-images">
             <Link to="/" className="nav-link-images">Home</Link>

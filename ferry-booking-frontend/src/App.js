@@ -47,7 +47,7 @@ function Header() {
       <div className="nav-container">
         <Link to="/" className="logo">
           <span className="logo-icon">⛴️</span>
-          <span>M2M Ferries</span>
+          <span>Payfikar Travels</span>
         </Link>
         <div className="nav-menu">
           <Link to="/" className="nav-link">Home</Link>
@@ -120,7 +120,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-grid">
           <div className="footer-column">
-            <h3>M2M Ferries</h3>
+            <h3>Payfikar Travels</h3>
             <p>Your trusted partner for ferry services between Mumbai and Mandwa/Alibaug. Fast, reliable, and comfortable travel across the Arabian Sea.</p>
           </div>
           <div className="footer-column">
@@ -149,13 +149,12 @@ function Footer() {
             <ul>
               <li>📞 +91 9876543210</li>
               <li>✉️ info@m2mferries.com</li>
-              <li>📍 Mumbai Terminal, Ferry Wharf</li>
-              <li>📍 Mandwa Terminal, Raigad District</li>
+              <li>📍 Plot no 30, abhyudaya nagar colony,vanasthalipuram, Hyderabad,TG-500070</li>
             </ul>
           </div>
         </div>
         <div className="copyright">
-          <p>&copy; 2026 M2M Ferries. All rights reserved.</p>
+          <p>&copy; 2026 Payfikar Travels. All rights reserved.</p>
         </div>
       </div>
     </footer>
