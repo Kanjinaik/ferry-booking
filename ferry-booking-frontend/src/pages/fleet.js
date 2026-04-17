@@ -6,7 +6,7 @@ const Fleet = () => {
     {
       id: 1,
       name: "Payfikar Express",
-      image: "/assets/images/fleet/ferry-1.jpg",
+      image: "/assets/payfikar7.png",
       capacity: "200 Passengers",
       speed: "35 Knots",
       features: ["Air Conditioning", "Cafeteria", "Entertainment", "Vehicle Deck"],
@@ -15,7 +15,7 @@ const Fleet = () => {
     {
       id: 2,
       name: "Payfikar Princess",
-      image: "/assets/images/fleet/ferry-2.jpg",
+      image: "/assets/payfikar1.png",
       capacity: "150 Passengers",
       speed: "28 Knots",
       features: ["Luxury Seating", "Premium Lounge", "WiFi", "Vehicle Deck"],
