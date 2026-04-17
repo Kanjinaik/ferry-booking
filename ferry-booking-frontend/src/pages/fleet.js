@@ -5,7 +5,7 @@ const Fleet = () => {
   const vessels = [
     {
       id: 1,
-      name: "M2M Express",
+      name: "Payfikar Express",
       image: "/assets/images/fleet/ferry-1.jpg",
       capacity: "200 Passengers",
       speed: "35 Knots",
@@ -14,7 +14,7 @@ const Fleet = () => {
     },
     {
       id: 2,
-      name: "M2M Princess",
+      name: "Payfikar Princess",
       image: "/assets/images/fleet/ferry-2.jpg",
       capacity: "150 Passengers",
       speed: "28 Knots",
@@ -23,7 +23,7 @@ const Fleet = () => {
     },
     {
       id: 3,
-      name: "M2M Swift",
+      name: "Payfikar Swift",
       image: "/assets/images/fleet/ferry-1.jpg",
       capacity: "180 Passengers",
       speed: "32 Knots",
@@ -32,7 +32,7 @@ const Fleet = () => {
     },
     {
       id: 4,
-      name: "M2M Voyager",
+      name: "Payfikar Voyager",
       image: "/assets/images/fleet/ferry-2.jpg",
       capacity: "250 Passengers",
       speed: "30 Knots",

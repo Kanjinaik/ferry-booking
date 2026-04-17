@@ -6,7 +6,7 @@ import '../styles/interactive-home.css';
 const fallbackFerries = [
   {
     id: 1,
-    name: 'M2M-1',
+    name: 'Payfikar-1',
     type: 'High-Speed Ro-Pax Ferry',
     capacity: '500 passengers, 145 vehicles',
     features: ['AC Lounge', 'Outdoor Seating', 'Cafeteria', 'Entertainment'],
@@ -19,7 +19,7 @@ const fallbackFerries = [
   },
   {
     id: 2,
-    name: 'M2M-2',
+    name: 'Payfikar-2',
     type: 'Premium Passenger Ferry',
     capacity: '400 passengers',
     features: ['Luxury Seating', 'Panoramic Windows', 'VIP Lounge', 'Bar'],
@@ -32,7 +32,7 @@ const fallbackFerries = [
   },
   {
     id: 3,
-    name: 'M2M-3',
+    name: 'Payfikar-3',
     type: 'Vehicle Transport Ferry',
     capacity: '300 passengers, 200 vehicles',
     features: ['Large Vehicle Deck', 'Covered Parking', 'Loading Ramp', 'Security'],
@@ -45,7 +45,7 @@ const fallbackFerries = [
   },
   {
     id: 4,
-    name: 'M2M-4',
+    name: 'Payfikar-4',
     type: 'Eco-Friendly Ferry',
     capacity: '350 passengers',
     features: ['Solar Panels', 'Low Emission', 'Recycling System', 'Green Design'],
@@ -378,7 +378,7 @@ const InteractiveHome = () => {
 
       <section className="features-section-interactive">
         <div className="section-header-interactive">
-          <h2>Why Choose M2M Premium Ferry Services</h2>
+          <h2>Why Choose Payfikar Travels Premium Ferry Services</h2>
           <p>Experience the pinnacle of maritime travel with our world-class ferry operations</p>
         </div>
 

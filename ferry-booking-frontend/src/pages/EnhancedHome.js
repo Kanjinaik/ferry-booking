@@ -312,7 +312,7 @@ const EnhancedHome = () => {
       {/* Enhanced Features Section */}
       <section className="features-section-enhanced">
         <div className="section-header-enhanced">
-          <h2>Why Choose M2M Premium Services</h2>
+          <h2>Why Choose Payfikar Travels Premium Services</h2>
           <p>Experience the difference with our world-class ferry services</p>
         </div>
         

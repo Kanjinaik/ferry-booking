@@ -3,10 +3,10 @@ import { useParams, useNavigate, useLocation } from "react-router-dom";
 import api from "../api/axios";
 
 const fallbackFerries = [
-  { id: 1, name: "M2M-1", route: "Mumbai -> Alibaug", price: 350, vehiclePrice: 500 },
-  { id: 2, name: "M2M-2", route: "Mumbai -> Mandwa", price: 400, vehiclePrice: 500 },
-  { id: 3, name: "M2M-3", route: "Alibaug -> Mumbai", price: 350, vehiclePrice: 500 },
-  { id: 4, name: "M2M-4", route: "Mandwa -> Mumbai", price: 400, vehiclePrice: 500 },
+  { id: 1, name: "Payfikar-1", route: "Mumbai -> Alibaug", price: 350, vehiclePrice: 500 },
+  { id: 2, name: "Payfikar-2", route: "Mumbai -> Mandwa", price: 400, vehiclePrice: 500 },
+  { id: 3, name: "Payfikar-3", route: "Alibaug -> Mumbai", price: 350, vehiclePrice: 500 },
+  { id: 4, name: "Payfikar-4", route: "Mandwa -> Mumbai", price: 400, vehiclePrice: 500 },
 ];
 
 const ModernBooking = () => {

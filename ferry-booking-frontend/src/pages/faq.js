@@ -183,7 +183,7 @@ const FAQ = () => {
                     <div className="help-card bg-white p-4 rounded shadow">
                       <i className="fas fa-envelope fa-2x text-primary mb-3"></i>
                       <h5>Email Us</h5>
-                      <p className="text-muted">support@m2mferries.com</p>
+                      <p className="text-muted">support@payfikartravels.com</p>
                       <small>Response within 24 hours</small>
                     </div>
                   </div>

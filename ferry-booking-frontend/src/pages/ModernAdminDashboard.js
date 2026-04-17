@@ -33,10 +33,10 @@ const AdminDashboard = () => {
           { id: 5, customer: 'Robert Brown', route: 'Mumbai → Mandwa', date: '2024-01-13', amount: 1200, status: 'confirmed' }
         ],
         ferryPerformance: [
-          { name: 'M2M-1', trips: 142, occupancy: 87, revenue: 168000 },
-          { name: 'M2M-2', trips: 138, occupancy: 92, revenue: 184000 },
-          { name: 'M2M-3', trips: 156, occupancy: 78, revenue: 145000 },
-          { name: 'M2M-4', trips: 124, occupancy: 85, revenue: 132000 }
+          { name: 'Payfikar-1', trips: 142, occupancy: 87, revenue: 168000 },
+          { name: 'Payfikar-2', trips: 138, occupancy: 92, revenue: 184000 },
+          { name: 'Payfikar-3', trips: 156, occupancy: 78, revenue: 145000 },
+          { name: 'Payfikar-4', trips: 124, occupancy: 85, revenue: 132000 }
         ]
       };
 

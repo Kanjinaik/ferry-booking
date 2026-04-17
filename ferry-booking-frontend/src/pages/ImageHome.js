@@ -313,7 +313,7 @@ const ImageHome = () => {
       {/* Premium Features Section */}
       <section className="features-section-images">
         <div className="section-header-images">
-          <h2>Why Choose M2M Premium Ferry Services</h2>
+          <h2>Why Choose Payfikar Travels Premium Ferry Services</h2>
           <p>Experience the pinnacle of maritime travel with our world-class ferry operations</p>
         </div>
         

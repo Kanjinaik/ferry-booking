@@ -148,7 +148,7 @@ function Footer() {
             <h3>Contact Info</h3>
             <ul>
               <li>📞 +91 9876543210</li>
-              <li>✉️ info@m2mferries.com</li>
+              <li>✉️ info@payfikartravels.com</li>
               <li>📍 Plot no 30, abhyudaya nagar colony,vanasthalipuram, Hyderabad,TG-500070</li>
             </ul>
           </div>
