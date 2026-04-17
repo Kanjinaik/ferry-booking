@@ -254,65 +254,32 @@
 import '../styles/image-cursor.css';
 
 export default function ImageCursor() {
+  const slides = [
+    '/assets/payfikar1.png?v=20260417',
+    '/assets/payfikar2.png?v=20260417',
+    '/assets/payfikar3.png?v=20260417',
+  ];
+  
   return (
     <div
       id="carouselExampleAutoplaying"
       className="carousel slide"
       data-bs-ride="carousel"
+      data-bs-interval="3500"
     >
       <div className="carousel-inner">
-
-        <div className="carousel-item active bg-slide slide1">
-          <div className="carousel-caption">
-            <div className="hero-banner-content">
-              <p className="hero-topline">Leave the road behind with</p>
-              <h1 className="hero-title">
-                PAYFIKAR <span>TRAVELS</span>.COM
-              </h1>
-              <div className="hero-cta-block">
-                <h2>Sail into the calm.</h2>
-                <a href="/booking" className="hero-book-button">
-                  BOOK NOW
-                </a>
-              </div>
-            </div>
+        {slides.map((slide, index) => (
+          <div
+            key={slide}
+            className={`carousel-item bg-slide ${index === 0 ? 'active' : ''}`}
+          >
+            <img
+              src={slide}
+              className="slide-image"
+              alt={`Payfikar Travels banner ${index + 1}`}
+            />
           </div>
-        </div>
-
-        <div className="carousel-item bg-slide slide2">
-          <div className="carousel-caption">
-            <div className="hero-banner-content">
-              <p className="hero-topline">Leave the road behind with</p>
-              <h1 className="hero-title">
-                PAYFIKAR <span>TRAVELS</span>.COM
-              </h1>
-              <div className="hero-cta-block">
-                <h2>Sail into the calm.</h2>
-                <a href="/booking" className="hero-book-button">
-                  BOOK NOW
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="carousel-item bg-slide slide3">
-          <div className="carousel-caption">
-            <div className="hero-banner-content">
-              <p className="hero-topline">Leave the road behind with</p>
-              <h1 className="hero-title">
-                PAYFIKAR <span>TRAVELS</span>.COM
-              </h1>
-              <div className="hero-cta-block">
-                <h2>Sail into the calm.</h2>
-                <a href="/booking" className="hero-book-button">
-                  BOOK NOW
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        ))}
       </div>
 
       <button
