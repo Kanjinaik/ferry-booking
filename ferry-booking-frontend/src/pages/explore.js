@@ -103,7 +103,7 @@ const Explore = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="/assets/images/ferry-1.jpg" alt="Explore Destinations" className="img-fluid rounded shadow" />
+              <img src="/assets/images/fleet/ferry-1.jpg" alt="Explore Destinations" className="img-fluid rounded shadow" />
             </div>
           </div>
         </div>
@@ -212,10 +212,10 @@ const Explore = () => {
           
           <div className="row">
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/ferry-1.jpg" alt="Destination 1" className="img-fluid rounded shadow" />
+              <img src="/assets/images/fleet/ferry-1.jpg" alt="Destination 1" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/ferry-2.jpg" alt="Destination 2" className="img-fluid rounded shadow" />
+              <img src="/assets/images/fleet/ferry-2.jpg" alt="Destination 2" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
               <img src="/assets/images/ferry-hero-bg.jpg" alt="Destination 3" className="img-fluid rounded shadow" />
