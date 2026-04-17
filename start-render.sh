@@ -1,8 +1,14 @@
 #!/bin/sh
 set -e
 
-if [ "${DB_CONNECTION}" = "mysq1" ]; then
-  export DB_CONNECTION="mysql"
+DB_CONNECTION_CLEAN="$(printf '%s' "${DB_CONNECTION}" | tr -d '\r' | xargs)"
+
+if [ "${DB_CONNECTION_CLEAN}" = "mysq1" ]; then
+  DB_CONNECTION_CLEAN="mysql"
+fi
+
+if [ -n "${DB_CONNECTION_CLEAN}" ]; then
+  export DB_CONNECTION="${DB_CONNECTION_CLEAN}"
 fi
 
 php artisan optimize:clear
