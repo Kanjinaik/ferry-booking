@@ -16,6 +16,21 @@
   z-index: 1;
 }
 
+.bg-slide::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 58%;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(113, 197, 243, 0.92) 0%, rgba(113, 197, 243, 0.76) 28%, rgba(113, 197, 243, 0) 58%),
+    radial-gradient(circle at 48% 22%, rgba(118, 202, 245, 0.94) 0%, rgba(118, 202, 245, 0.78) 30%, rgba(118, 202, 245, 0) 60%),
+    radial-gradient(circle at 78% 24%, rgba(144, 213, 247, 0.92) 0%, rgba(144, 213, 247, 0.74) 28%, rgba(144, 213, 247, 0) 58%),
+    linear-gradient(180deg, rgba(103, 196, 243, 0.96) 0%, rgba(126, 206, 246, 0.88) 34%, rgba(168, 223, 249, 0.18) 100%);
+  z-index: 2;
+}
+
 /* Background Images */
 .slide1 {
   background-image: url('../assets/images/Banner_1920x964px.jpg');
@@ -31,7 +46,7 @@
 
 .carousel-caption {
   inset: 0;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -120,7 +135,7 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-  z-index: 3;
+  z-index: 4;
 }
 
 @media (max-width: 991px) {
