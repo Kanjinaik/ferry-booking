@@ -1,7 +1,10 @@
 .bg-slide {
   height: clamp(360px, 42vw, 560px);
   overflow: hidden;
-  background: linear-gradient(135deg, #0a5d99 0%, #7dc9f4 52%, #eaf8ff 100%);
+  background-image: url('/assets/payfikar4.png?v=20260418');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +18,10 @@
 }
 
 .carousel-inner {
-  background: linear-gradient(135deg, #0a5d99 0%, #7dc9f4 52%, #eaf8ff 100%);
+  background-image: url('/assets/payfikar4.png?v=20260418');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .carousel-control-prev,
