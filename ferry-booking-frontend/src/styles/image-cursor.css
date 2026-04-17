@@ -7,13 +7,13 @@
 
 /* Background Images */
 .slide1 {
-  background-image: linear-gradient(rgba(8, 24, 38, 0.28), rgba(8, 24, 38, 0.28)), url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-image: url('../assets/images/Banner_1920x964px.jpg');
 }
 
 .slide2 {
-  background-image: linear-gradient(rgba(8, 24, 38, 0.28), rgba(8, 24, 38, 0.28)), url('https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-image: url('../assets/images/Banner_1920x964px.jpg');
 }
 
 .slide3 {
-  background-image: linear-gradient(rgba(8, 24, 38, 0.28), rgba(8, 24, 38, 0.28)), url('https://images.unsplash.com/photo-1522093007477-0e4f1a004170?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-image: url('../assets/images/Banner_1920x964px.jpg');
 }
