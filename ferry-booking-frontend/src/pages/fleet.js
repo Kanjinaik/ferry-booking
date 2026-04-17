@@ -41,6 +41,28 @@ const Fleet = () => {
     }
   ];
 
+  const imageGallery = [
+    { id: 1, title: "App Logo 192", image: "/logo192.png", category: "Branding" },
+    { id: 2, title: "App Logo 512", image: "/logo512.png", category: "Branding" },
+    { id: 3, title: "Main Banner", image: "/assets/banner.jpeg", category: "Hero" },
+    { id: 4, title: "Ferry AVIF", image: "/assets/ferry.avif", category: "Hero" },
+    { id: 5, title: "Banner Image", image: "/assets/images/banner.jpeg", category: "Hero" },
+    { id: 6, title: "Secondary Banner", image: "/assets/images/banner2.jpeg", category: "Hero" },
+    { id: 7, title: "Ferry Background", image: "/assets/images/ferry-bg-1.jpg", category: "Scenic" },
+    { id: 8, title: "Ferry Hero Background", image: "/assets/images/ferry-hero-bg.jpg", category: "Scenic" },
+    { id: 9, title: "Ferry Icon", image: "/assets/images/ferry-icon.svg", category: "Branding" },
+    { id: 10, title: "Image Ferry AVIF", image: "/assets/images/ferry.avif", category: "Scenic" },
+    { id: 11, title: "Mandwa View", image: "/assets/images/mandwa1.jpg", category: "Destination" },
+    { id: 12, title: "About Banner", image: "/assets/images/about-us/about-banner.png", category: "About" },
+    { id: 13, title: "Fleet Vessel One", image: "/assets/images/fleet/ferry-1.jpg", category: "Fleet" },
+    { id: 14, title: "Fleet Vessel Two", image: "/assets/images/fleet/ferry-2.jpg", category: "Fleet" },
+    { id: 15, title: "Navbar Logo", image: "/assets/images/navbar/m2m-logo.png", category: "Branding" },
+    { id: 16, title: "Source Ferry Background", image: "/src/assets/ferry-bg-1.jpg", category: "Archive" },
+    { id: 17, title: "Source Ferry Hero", image: "/src/assets/ferry-hero-bg.jpg", category: "Archive" },
+    { id: 18, title: "Source Image Ferry Background", image: "/src/assets/images/ferry-bg-1.jpg", category: "Archive" },
+    { id: 19, title: "Source Image Ferry Hero", image: "/src/assets/images/ferry-hero-bg.jpg", category: "Archive" }
+  ];
+
   return (
     <div className="page-container">
       {/* Hero Section */}
@@ -138,6 +160,45 @@ const Fleet = () => {
                         ))}
                       </ul>
                     </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Image Gallery */}
+      <section className="image-gallery py-5">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="section-title">Frontend Image Gallery</h2>
+            <p className="lead">All available frontend images are displayed below in one place.</p>
+          </div>
+
+          <div className="row">
+            {imageGallery.map((item) => (
+              <div key={item.id} className="col-lg-4 col-md-6 mb-4">
+                <div
+                  className="bg-white rounded shadow-sm h-100 overflow-hidden"
+                  style={{ border: '1px solid rgba(13, 27, 42, 0.08)' }}
+                >
+                  <div style={{ height: '240px', background: '#f4f8fb' }}>
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-100 h-100"
+                      style={{ objectFit: 'cover', display: 'block' }}
+                    />
+                  </div>
+                  <div className="p-3">
+                    <div className="d-flex justify-content-between align-items-center mb-2">
+                      <h5 className="mb-0 text-primary">{item.title}</h5>
+                      <span className="badge bg-primary">{item.category}</span>
+                    </div>
+                    <p className="mb-0 text-muted" style={{ fontSize: '0.9rem', wordBreak: 'break-all' }}>
+                      {item.image}
+                    </p>
                   </div>
                 </div>
               </div>
