@@ -254,7 +254,6 @@
 import '../styles/image-cursor.css';
 
 export default function ImageCursor() {
-  
   return (
     <div
       id="carouselExampleAutoplaying"
@@ -265,16 +264,52 @@ export default function ImageCursor() {
 
         <div className="carousel-item active bg-slide slide1">
           <div className="carousel-caption">
+            <div className="hero-banner-content">
+              <p className="hero-topline">Leave the road behind with</p>
+              <h1 className="hero-title">
+                PAYFIKAR <span>TRAVELS</span>.COM
+              </h1>
+              <div className="hero-cta-block">
+                <h2>Sail into the calm.</h2>
+                <a href="/booking" className="hero-book-button">
+                  BOOK NOW
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="carousel-item bg-slide slide2">
           <div className="carousel-caption">
+            <div className="hero-banner-content">
+              <p className="hero-topline">Leave the road behind with</p>
+              <h1 className="hero-title">
+                PAYFIKAR <span>TRAVELS</span>.COM
+              </h1>
+              <div className="hero-cta-block">
+                <h2>Sail into the calm.</h2>
+                <a href="/booking" className="hero-book-button">
+                  BOOK NOW
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="carousel-item bg-slide slide3">
           <div className="carousel-caption">
+            <div className="hero-banner-content">
+              <p className="hero-topline">Leave the road behind with</p>
+              <h1 className="hero-title">
+                PAYFIKAR <span>TRAVELS</span>.COM
+              </h1>
+              <div className="hero-cta-block">
+                <h2>Sail into the calm.</h2>
+                <a href="/booking" className="hero-book-button">
+                  BOOK NOW
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
