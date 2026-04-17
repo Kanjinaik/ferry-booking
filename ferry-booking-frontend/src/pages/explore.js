@@ -6,7 +6,7 @@ const Explore = () => {
     {
       id: 1,
       name: "Mandwa Port",
-      image: "/assets/images/explore/abc.png",
+      image: "/assets/images/mandwa1.jpg",
       description: "Historic port town with beautiful coastal views and local markets",
       highlights: ["Fishing Harbor", "Local Markets", "Coastal Walks", "Seafood Restaurants"],
       activities: ["Shopping", "Photography", "Local Cuisine", "Beach Walks"]
@@ -14,7 +14,7 @@ const Explore = () => {
     {
       id: 2,
       name: "Alibaug Beaches",
-      image: "/assets/images/explore/abc1.png",
+      image: "/assets/images/ferry-bg-1.jpg",
       description: "Pristine beaches perfect for relaxation and water activities",
       highlights: ["Clean Beaches", "Water Sports", "Beach Resorts", "Sunset Views"],
       activities: ["Swimming", "Jet Skiing", "Beach Volleyball", "Relaxation"]
@@ -22,7 +22,7 @@ const Explore = () => {
     {
       id: 3,
       name: "Murud-Janjira Fort",
-      image: "/assets/images/explore/abc3.png",
+      image: "/assets/images/ferry-hero-bg.jpg",
       description: "Historic sea fort with rich maritime history and stunning architecture",
       highlights: ["17th Century Architecture", "Maritime History", "Panoramic Views", "Historical Tours"],
       activities: ["Heritage Tour", "Photography", "History Learning", "Fort Exploration"]
@@ -30,7 +30,7 @@ const Explore = () => {
     {
       id: 4,
       name: "Kihim Beach",
-      image: "/assets/images/explore/abc5.png",
+      image: "/assets/images/about-us/about-banner.png",
       description: "Popular beach destination with water sports and recreational activities",
       highlights: ["Water Sports Center", "Beach Shacks", "Adventure Activities", "Family Friendly"],
       activities: ["Parasailing", "Banana Boat Ride", "Jet Ski", "Beach Games"]
