@@ -6,7 +6,7 @@ const About = () => {
     <div className="page-container">
       {/* Hero Section with authentic image */}
       <section className="hero-section" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/about-us/about-banner.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/payfikar5.png?v=20260418b')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -45,7 +45,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="/assets/images/about-us/Images1.png" alt="Payfikar Travels" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar6.png?v=20260418b" alt="Payfikar Travels" className="img-fluid rounded shadow" />
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 mb-4">
               <div className="fleet-item">
-                <img src="/assets/images/fleet/ferry-1.jpg" alt="Modern Ferry" className="img-fluid rounded shadow" />
+                <img src="/assets/payfikar7.png?v=20260418b" alt="Modern Ferry" className="img-fluid rounded shadow" />
                 <div className="fleet-info p-3">
                   <h4>High-Speed Catamarans</h4>
                   <p>Modern, fuel-efficient vessels designed for comfort and speed.</p>
@@ -127,7 +127,7 @@ const About = () => {
             </div>
             <div className="col-md-6 mb-4">
               <div className="fleet-item">
-                <img src="/assets/images/fleet/ferry-2.jpg" alt="Luxury Ferry" className="img-fluid rounded shadow" />
+                <img src="/assets/payfikar1.png?v=20260418b" alt="Luxury Ferry" className="img-fluid rounded shadow" />
                 <div className="fleet-info p-3">
                   <h4>Luxury Passenger Vessels</h4>
                   <p>Spacious interiors with premium amenities for your comfort.</p>

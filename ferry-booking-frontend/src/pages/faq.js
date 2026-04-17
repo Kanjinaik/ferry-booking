@@ -72,7 +72,7 @@ const FAQ = () => {
     <div className="page-container">
       {/* Hero Section */}
       <section className="hero-section" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/about-us/about-banner.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/payfikar4.png?v=20260418b')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',

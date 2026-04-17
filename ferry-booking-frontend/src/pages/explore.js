@@ -6,7 +6,7 @@ const Explore = () => {
     {
       id: 1,
       name: "Mandwa Port",
-      image: "/assets/images/explore/abc.png",
+      image: "/assets/payfikar1.png?v=20260418b",
       description: "Historic port town with beautiful coastal views and local markets",
       highlights: ["Fishing Harbor", "Local Markets", "Coastal Walks", "Seafood Restaurants"],
       activities: ["Shopping", "Photography", "Local Cuisine", "Beach Walks"]
@@ -14,7 +14,7 @@ const Explore = () => {
     {
       id: 2,
       name: "Alibaug Beaches",
-      image: "/assets/images/explore/abc1.png",
+      image: "/assets/payfikar2.png?v=20260418b",
       description: "Pristine beaches perfect for relaxation and water activities",
       highlights: ["Clean Beaches", "Water Sports", "Beach Resorts", "Sunset Views"],
       activities: ["Swimming", "Jet Skiing", "Beach Volleyball", "Relaxation"]
@@ -22,7 +22,7 @@ const Explore = () => {
     {
       id: 3,
       name: "Murud-Janjira Fort",
-      image: "/assets/images/explore/abc3.png",
+      image: "/assets/payfikar3.png?v=20260418b",
       description: "Historic sea fort with rich maritime history and stunning architecture",
       highlights: ["17th Century Architecture", "Maritime History", "Panoramic Views", "Historical Tours"],
       activities: ["Heritage Tour", "Photography", "History Learning", "Fort Exploration"]
@@ -30,7 +30,7 @@ const Explore = () => {
     {
       id: 4,
       name: "Kihim Beach",
-      image: "/assets/images/explore/abc5.png",
+      image: "/assets/payfikar4.png?v=20260418b",
       description: "Popular beach destination with water sports and recreational activities",
       highlights: ["Water Sports Center", "Beach Shacks", "Adventure Activities", "Family Friendly"],
       activities: ["Parasailing", "Banana Boat Ride", "Jet Ski", "Beach Games"]
@@ -64,7 +64,7 @@ const Explore = () => {
     <div className="page-container">
       {/* Hero Section */}
       <section className="hero-section" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/payfikar4.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/payfikar4.png?v=20260418b')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -103,7 +103,7 @@ const Explore = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="/assets/images/ferry-1.jpg" alt="Explore Destinations" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar5.png?v=20260418b" alt="Explore Destinations" className="img-fluid rounded shadow" />
             </div>
           </div>
         </div>
@@ -212,16 +212,16 @@ const Explore = () => {
           
           <div className="row">
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/ferry-1.jpg" alt="Destination 1" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar4.png?v=20260418b" alt="Destination 1" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/ferry-2.jpg" alt="Destination 2" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar5.png?v=20260418b" alt="Destination 2" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/ferry-hero-bg.jpg" alt="Destination 3" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar6.png?v=20260418b" alt="Destination 3" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/ferry-bg-1.jpg" alt="Destination 4" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar7.png?v=20260418b" alt="Destination 4" className="img-fluid rounded shadow" />
             </div>
           </div>
           

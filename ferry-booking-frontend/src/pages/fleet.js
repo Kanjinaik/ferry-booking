@@ -24,7 +24,7 @@ const Fleet = () => {
     {
       id: 3,
       name: "Payfikar Swift",
-      image: "/assets/images/fleet/ferry-1.jpg",
+      image: "/assets/payfikar2.png?v=20260418b",
       capacity: "180 Passengers",
       speed: "32 Knots",
       features: ["Economy Class", "Refreshments", "Entertainment", "Vehicle Deck"],
@@ -33,7 +33,7 @@ const Fleet = () => {
     {
       id: 4,
       name: "Payfikar Voyager",
-      image: "/assets/images/fleet/ferry-2.jpg",
+      image: "/assets/payfikar3.png?v=20260418b",
       capacity: "250 Passengers",
       speed: "30 Knots",
       features: ["Spacious Decks", "Multiple Seating", "Cafeteria", "Vehicle Transport"],
@@ -42,32 +42,20 @@ const Fleet = () => {
   ];
 
   const imageGallery = [
-    { id: 1, title: "App Logo 192", image: "/logo192.png", category: "Branding" },
-    { id: 2, title: "App Logo 512", image: "/logo512.png", category: "Branding" },
-    { id: 3, title: "Main Banner", image: "/assets/banner.jpeg", category: "Hero" },
-    { id: 4, title: "Ferry AVIF", image: "/assets/ferry.avif", category: "Hero" },
-    { id: 5, title: "Banner Image", image: "/assets/images/banner.jpeg", category: "Hero" },
-    { id: 6, title: "Secondary Banner", image: "/assets/images/banner2.jpeg", category: "Hero" },
-    { id: 7, title: "Ferry Background", image: "/assets/images/ferry-bg-1.jpg", category: "Scenic" },
-    { id: 8, title: "Ferry Hero Background", image: "/assets/images/ferry-hero-bg.jpg", category: "Scenic" },
-    { id: 9, title: "Ferry Icon", image: "/assets/images/ferry-icon.svg", category: "Branding" },
-    { id: 10, title: "Image Ferry AVIF", image: "/assets/images/ferry.avif", category: "Scenic" },
-    { id: 11, title: "Mandwa View", image: "/assets/images/mandwa1.jpg", category: "Destination" },
-    { id: 12, title: "About Banner", image: "/assets/images/about-us/about-banner.png", category: "About" },
-    { id: 13, title: "Fleet Vessel One", image: "/assets/images/fleet/ferry-1.jpg", category: "Fleet" },
-    { id: 14, title: "Fleet Vessel Two", image: "/assets/images/fleet/ferry-2.jpg", category: "Fleet" },
-    { id: 15, title: "Navbar Logo", image: "/assets/images/navbar/m2m-logo.png", category: "Branding" },
-    { id: 16, title: "Source Ferry Background", image: "/src/assets/ferry-bg-1.jpg", category: "Archive" },
-    { id: 17, title: "Source Ferry Hero", image: "/src/assets/ferry-hero-bg.jpg", category: "Archive" },
-    { id: 18, title: "Source Image Ferry Background", image: "/src/assets/images/ferry-bg-1.jpg", category: "Archive" },
-    { id: 19, title: "Source Image Ferry Hero", image: "/src/assets/images/ferry-hero-bg.jpg", category: "Archive" }
+    { id: 1, title: "Payfikar 1", image: "/assets/payfikar1.png?v=20260418b", category: "Fleet" },
+    { id: 2, title: "Payfikar 2", image: "/assets/payfikar2.png?v=20260418b", category: "Fleet" },
+    { id: 3, title: "Payfikar 3", image: "/assets/payfikar3.png?v=20260418b", category: "Fleet" },
+    { id: 4, title: "Payfikar 4", image: "/assets/payfikar4.png?v=20260418b", category: "Hero" },
+    { id: 5, title: "Payfikar 5", image: "/assets/payfikar5.png?v=20260418b", category: "Hero" },
+    { id: 6, title: "Payfikar 6", image: "/assets/payfikar6.png?v=20260418b", category: "Showcase" },
+    { id: 7, title: "Payfikar 7", image: "/assets/payfikar7.png?v=20260418b", category: "Fleet" }
   ];
 
   return (
     <div className="page-container">
       {/* Hero Section */}
       <section className="hero-section" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/about-us/about-banner.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/payfikar5.png?v=20260418b')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -118,7 +106,7 @@ const Fleet = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="/assets/images/ferry-1.jpg" alt="Fleet Overview" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar6.png?v=20260418b" alt="Fleet Overview" className="img-fluid rounded shadow" />
             </div>
           </div>
         </div>
@@ -251,7 +239,7 @@ const Fleet = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <img src="/assets/images/ferry-2.jpg" alt="Maintenance" className="img-fluid rounded shadow" />
+              <img src="/assets/payfikar4.png?v=20260418b" alt="Maintenance" className="img-fluid rounded shadow" />
             </div>
             <div className="col-lg-6">
               <h2 className="section-title">Rigorous Maintenance Standards</h2>

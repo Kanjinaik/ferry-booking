@@ -3,6 +3,13 @@ import { Link, useNavigate } from 'react-router-dom';
 import api from '../api/axios';
 import '../styles/interactive-home.css';
 
+const payfikarImages = [
+  '/assets/payfikar1.png?v=20260418b',
+  '/assets/payfikar2.png?v=20260418b',
+  '/assets/payfikar3.png?v=20260418b',
+  '/assets/payfikar4.png?v=20260418b',
+];
+
 const fallbackFerries = [
   {
     id: 1,
@@ -10,7 +17,7 @@ const fallbackFerries = [
     type: 'High-Speed Ro-Pax Ferry',
     capacity: '500 passengers, 145 vehicles',
     features: ['AC Lounge', 'Outdoor Seating', 'Cafeteria', 'Entertainment'],
-    image: 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+    image: payfikarImages[0],
     status: 'Active',
     speed: '35 knots',
     amenities: ['WiFi', 'Charging Points', 'Food Service', 'Restrooms'],
@@ -23,7 +30,7 @@ const fallbackFerries = [
     type: 'Premium Passenger Ferry',
     capacity: '400 passengers',
     features: ['Luxury Seating', 'Panoramic Windows', 'VIP Lounge', 'Bar'],
-    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+    image: payfikarImages[1],
     status: 'Active',
     speed: '30 knots',
     amenities: ['Premium Dining', 'Entertainment', 'WiFi', 'Comfort Seats'],
@@ -36,7 +43,7 @@ const fallbackFerries = [
     type: 'Vehicle Transport Ferry',
     capacity: '300 passengers, 200 vehicles',
     features: ['Large Vehicle Deck', 'Covered Parking', 'Loading Ramp', 'Security'],
-    image: 'https://images.unsplash.com/photo-1534437546397-1d174e709c4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+    image: payfikarImages[2],
     status: 'Active',
     speed: '25 knots',
     amenities: ['Vehicle Security', 'Passenger Lounge', 'Basic Amenities'],
@@ -49,7 +56,7 @@ const fallbackFerries = [
     type: 'Eco-Friendly Ferry',
     capacity: '350 passengers',
     features: ['Solar Panels', 'Low Emission', 'Recycling System', 'Green Design'],
-    image: 'https://images.unsplash.com/photo-1522093007477-0e4f1a004170?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+    image: payfikarImages[3],
     status: 'Maintenance',
     speed: '28 knots',
     amenities: ['Eco Lounge', 'Educational Displays', 'Sustainable Materials'],
@@ -99,7 +106,7 @@ const parseRoute = (route) => {
 const normalizeFerry = (ferry, fallbackImage) => ({
   ...ferry,
   route: String(ferry.route || '').replace(/\s*->\s*/g, ' -> ').trim(),
-  image: ferry.image || fallbackImage,
+  image: fallbackImage || ferry.image || payfikarImages[0],
   vehiclePrice: ferry.vehiclePrice || 500,
   status: ferry.status === 'active' ? 'Active' : ferry.status === 'maintenance' ? 'Maintenance' : ferry.status || 'Active',
 });
