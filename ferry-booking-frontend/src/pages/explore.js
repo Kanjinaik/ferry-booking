@@ -6,7 +6,7 @@ const Explore = () => {
     {
       id: 1,
       name: "Mandwa Port",
-      image: "/assets/images/mandwa1.jpg",
+      image: "/assets/images/explore/abc.png",
       description: "Historic port town with beautiful coastal views and local markets",
       highlights: ["Fishing Harbor", "Local Markets", "Coastal Walks", "Seafood Restaurants"],
       activities: ["Shopping", "Photography", "Local Cuisine", "Beach Walks"]
@@ -14,7 +14,7 @@ const Explore = () => {
     {
       id: 2,
       name: "Alibaug Beaches",
-      image: "/assets/images/ferry-bg-1.jpg",
+      image: "/assets/images/explore/abc1.png",
       description: "Pristine beaches perfect for relaxation and water activities",
       highlights: ["Clean Beaches", "Water Sports", "Beach Resorts", "Sunset Views"],
       activities: ["Swimming", "Jet Skiing", "Beach Volleyball", "Relaxation"]
@@ -22,7 +22,7 @@ const Explore = () => {
     {
       id: 3,
       name: "Murud-Janjira Fort",
-      image: "/assets/images/ferry-hero-bg.jpg",
+      image: "/assets/images/explore/abc3.png",
       description: "Historic sea fort with rich maritime history and stunning architecture",
       highlights: ["17th Century Architecture", "Maritime History", "Panoramic Views", "Historical Tours"],
       activities: ["Heritage Tour", "Photography", "History Learning", "Fort Exploration"]
@@ -30,7 +30,7 @@ const Explore = () => {
     {
       id: 4,
       name: "Kihim Beach",
-      image: "/assets/images/about-us/about-banner.png",
+      image: "/assets/images/explore/abc5.png",
       description: "Popular beach destination with water sports and recreational activities",
       highlights: ["Water Sports Center", "Beach Shacks", "Adventure Activities", "Family Friendly"],
       activities: ["Parasailing", "Banana Boat Ride", "Jet Ski", "Beach Games"]
@@ -64,7 +64,7 @@ const Explore = () => {
     <div className="page-container">
       {/* Hero Section */}
       <section className="hero-section" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/ferry-hero-bg.jpg')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/payfikar4.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -103,7 +103,7 @@ const Explore = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="/assets/images/fleet/ferry-1.jpg" alt="Explore Destinations" className="img-fluid rounded shadow" />
+              <img src="/assets/images/ferry-1.jpg" alt="Explore Destinations" className="img-fluid rounded shadow" />
             </div>
           </div>
         </div>
@@ -212,10 +212,10 @@ const Explore = () => {
           
           <div className="row">
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/fleet/ferry-1.jpg" alt="Destination 1" className="img-fluid rounded shadow" />
+              <img src="/assets/images/ferry-1.jpg" alt="Destination 1" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
-              <img src="/assets/images/fleet/ferry-2.jpg" alt="Destination 2" className="img-fluid rounded shadow" />
+              <img src="/assets/images/ferry-2.jpg" alt="Destination 2" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-3 col-6 mb-3">
               <img src="/assets/images/ferry-hero-bg.jpg" alt="Destination 3" className="img-fluid rounded shadow" />
